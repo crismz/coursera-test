@@ -1,0 +1,112 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #999b16;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+
+#navbar {
+    background-color: rgb(221, 200, 199);
+}
+
+#navbar-brand {  /** Food,LLC **/
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1.6em;
+    margin: 10px 15px 10px 0;
+}
+
+  /** Button **/
+#button {
+    border: none;
+    margin-top: 15px;
+}
+
+#collapsable-nav {
+    padding: 0;
+    margin-right: -16px;
+    margin-left: -16px;
+    margin-bottom: -11px;
+}
+
+#collapsable-nav ul {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    border: 3px solid black;
+    background-color: rgba(67, 151, 177, 0.329);
+}
+
+#list li{
+    padding-top: 10px;
+    color: #000;
+    
+}
+
+#beef {
+    border-top: 2px solid black;
+}
+
+#sushi {
+    border-top: 2px solid black;
+}
+  /** END Button **/
+
+/** END HEADER **/
+
+/** HOMEPAGE **/
+#homepage section {
+    height: auto;
+    background-color: rgb(221, 200, 199);
+    color: #000;
+}
+h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#psection {
+    margin: 0px 30px 0px;
+    padding: 20px 20px 20px 20px;
+}
+
+/** SCREEN SIZE **/
+
+/** LARGE DESKTOPS SIZE  **/
+@media (min-width: 1199px) {
+    #collapsable-nav {
+        visibility: hidden;
+        position:fixed;
+    }
+}
+
+/** DESKTOPS SIZE  **/
+@media (min-width: 992px) and (max-width: 1199px) {
+    #collapsable-nav {
+        visibility: hidden;
+        position:fixed;
+    }
+}
+
+/** TABLETS SIZE  **/
+@media (min-width: 768px) and (max-width: 991px) {
+    #collapsable-nav {
+        visibility: hidden;
+        position:fixed;
+    }
+}
+
+/** PHONE SIZE  **/
+@media (max-width: 768px) {
+    #navbar-brand {  /** Food,LLC **/
+        font-size: 1.4em;
+        margin: 5px 15px 5px 0;
+    }
+    #homepage section {
+        height: auto;
+        background-color: rgb(221, 200, 199);
+        color: #000;
+    }
+}
